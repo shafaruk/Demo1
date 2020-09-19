@@ -14,10 +14,12 @@ public class LearnJavaBasic {
 
         if (age >=18 || age < 21){
             System.out.println("You can buy alcohols");
+            if(age ==18){
+                System.out.println("Age is 18 ");
+            }
 
         }else{
             System.out.println(" You are not allowed to buy");
         }
-
 }
 }
