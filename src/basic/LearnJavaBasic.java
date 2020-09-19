@@ -16,6 +16,11 @@ public class LearnJavaBasic {
             System.out.println("You can buy alcohols");
             if(age ==18){
                 System.out.println("Age is 18 ");
+                if(age!=18){
+                    System.out.println(" The age is not correct");
+                }else {
+                    System.out.println("Ups !!! Something goes wrong on this ");
+                }
             }
 
         }else{
